@@ -1,0 +1,7 @@
+# Cpp-Quiz-Game-Project-
+My first C++ project
+  -------------------------WELCOME TO MY C++ QUIZ---------------------------
+  --------You need to answer 10 questions from here (4 Pass marks)----------
+"You will get +1 credit for each correct answer, here is no negetive marking"
+ --------------------To start this quiz press 'S'---------------------------
+ -----------------------------ALL THE BEST---------------------------------
