@@ -2,12 +2,24 @@
 #include <string>
 using namespace std;
 int start_quiz () {
-    int score=0;
+    int score=0; int option;
     char x; char s,S;
     cin >> x;                           /*Call fuction*/
     if (x=='s'||x=='S')
     {
         std::cout << "Q1 A = x% of y and B = y% of x, then which of the following is true? \n" << "1. A is smaller than B.\n" << "2. A is greater than B. \n" << "3. If x is smaller than y, then A is greater than B..\n" << "4. A is equal to B."<< endl;
+        cin >> option;
+        if (option==4)
+        {
+            cout << "CORRECT !" << endl;
+            score=score+1;
+        }
+        else
+        {
+            cout << "WRONG !!" << endl;
+            score=score;
+        }
+    cout << "Your overall score==>  " << score << "/10" << endl;         
     }
     else {
         cout << "Try again";
@@ -21,4 +33,5 @@ int main () {
         cout << "--------------------To start this quiz press 'S'---------------------------" << endl;
         cout << "------------------------------ALL THE BEST---------------------------------" << endl;
         start_quiz ();
+
 }
