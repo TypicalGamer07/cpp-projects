@@ -1,5 +1,8 @@
 #include <iostream>
 using namespace std;
 int main () {
-    cout << "1";
+    
+}
+int star_quiz () {
+    
 }
