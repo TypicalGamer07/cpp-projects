@@ -55,7 +55,72 @@ int start_quiz () {
             cout << "WRONG !!" << endl<< endl;
             score=score;
         }
-        cout << "Q5. Which one of the following is not an element of Noble gases?? \n" << "1. Helium.\n" << "2. Hydrogen. \n" << "3. Neon.\n" << "4. Xenon."<< endl;
+        cout << "Q5. Which one of the following is not an element of Noble gases? \n" << "1. Helium.\n" << "2. Hydrogen. \n" << "3. Neon.\n" << "4. Xenon."<< endl;
+        cout << "Your answer ==> "; cin >> option;
+        if (option==2)
+        {
+            cout << "CORRECT !" << endl<< endl;
+            score=score+1;
+        }
+        else if (option>4)
+        {
+            cout << "Option is not valid" << endl<< endl;
+        }
+        else
+        {
+            cout << "WRONG !!" << endl<< endl;
+            score=score;
+        }
+        cout << "Q6. Which among the following states is largest producer of Coffee in India? \n" << "1. Tamilnadu.\n" << "2. Andhra Pradesh. \n" << "3. Karnataka.\n" << "4. Kerala."<< endl;
+        cout << "Your answer ==> "; cin >> option;
+        if (option==3)
+        {
+            cout << "CORRECT !" << endl<< endl;
+            score=score+1;
+        }
+        else if (option>4)
+        {
+            cout << "Option is not valid" << endl<< endl;
+        }
+        else
+        {
+            cout << "WRONG !!" << endl<< endl;
+            score=score;
+        }
+        
+        cout << "Q7. Who wrote Bande Mataram? \n" << "1. Rabindranath Tagore.\n" << "2. Bankimchandra Chatterjee. \n" << "3. Sharat chandra chattopadhyay.\n" << "4. None of the above."<< endl;
+        cout << "Your answer ==> "; cin >> option;
+        if (option==2)
+        {
+            cout << "CORRECT !" << endl<< endl;
+            score=score+1;
+        }
+        else if (option>4)
+        {
+            cout << "Option is not valid" << endl<< endl;
+        }
+        else
+        {
+            cout << "WRONG !!" << endl<< endl;
+            score=score;
+        }
+        cout << "Q8. In the third battle of Panipat, who defeated Marathas? \n" << "1. Afghans.\n" << "2. Mughals. \n" << "3. British Army.\n" << "4. None of the above."<< endl;
+        cout << "Your answer ==> "; cin >> option;
+        if (option==1)
+        {
+            cout << "CORRECT !" << endl<< endl;
+            score=score+1;
+        }
+        else if (option>4)
+        {
+            cout << "Option is not valid" << endl<< endl;
+        }
+        else
+        {
+            cout << "WRONG !!" << endl<< endl;
+            score=score;
+        }
+        cout << "Q9. Where did the formation of Azad Hind Fauj take Place? \n" << "1.  Jammu & Kashmir.\n" << "2. Kerala. \n" << "3. West Bnegal.\n" << "4. Meghalaya."<< endl;
         cout << "Your answer ==> "; cin >> option;
         if (option==2)
         {
