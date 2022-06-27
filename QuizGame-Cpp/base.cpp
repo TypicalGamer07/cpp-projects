@@ -120,7 +120,23 @@ int start_quiz () {
             cout << "WRONG !!" << endl<< endl;
             score=score;
         }
-        cout << "Q9. Where did the formation of Azad Hind Fauj take Place? \n" << "1.  Jammu & Kashmir.\n" << "2. Kerala. \n" << "3. West Bnegal.\n" << "4. Meghalaya."<< endl;
+        cout << "Q9. Where did the formation of Azad Hind Fauj take Place? \n" << "1. Thailand.\n" << "2. Singapore. \n" << "3. Russia.\n" << "4. Germany."<< endl;
+        cout << "Your answer ==> "; cin >> option;
+        if (option==2)
+        {
+            cout << "CORRECT !" << endl<< endl;
+            score=score+1;
+        }
+        else if (option>4)
+        {
+            cout << "Option is not valid" << endl<< endl;
+        }
+        else
+        {
+            cout << "WRONG !!" << endl<< endl;
+            score=score;
+        }
+        cout << "Q10. Look at this series: 7, 10, 8, 11, 9, 12,__ What number should come next? \n" << "1. 7\n" << "2. 10\n" << "3. 12\n" << "4. 13"<< endl;
         cout << "Your answer ==> "; cin >> option;
         if (option==2)
         {
@@ -138,7 +154,15 @@ int start_quiz () {
         }
     cout << "==============================" << endl;
     cout << "Your overall score==>  " << score << "/10" << endl;
-    cout << "==============================" << endl;         
+    cout << "==============================" << endl;
+                    if (score>=4)
+                    {
+                        cout << "STATUS\t" << "PASSED !!" <<endl;
+                    }
+                    else if (score<4)
+                    {
+                        cout << "STATUS\t" << "FAILED !!" <<endl;
+                    }
     }
     else {
         cout << "Try again";
