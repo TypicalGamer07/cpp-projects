@@ -165,7 +165,7 @@ int start_quiz () {
                     }
     }
     else {
-        cout << "Try again";
+        cout << "Press any key to exit";
     }
     return 0;
 }
