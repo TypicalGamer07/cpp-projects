@@ -39,7 +39,41 @@ int start_quiz () {
             cout << "WRONG !!" << endl<< endl;
             score=score;
         }
-    cout << "Your overall score==>  " << score << "/10" << endl;         
+        cout << "Q4. Which is the largest human cell? \n" << "1. Liver.\n" << "2. Skin. \n" << "3. Spleen.\n" << "4. Ovum."<< endl;
+        cout << "Your answer ==> "; cin >> option;
+        if (option==4)
+        {
+            cout << "CORRECT !" << endl<< endl;
+            score=score+1;
+        }
+        else if (option>4)
+        {
+            cout << "Option is not valid" << endl<< endl;
+        }
+        else
+        {
+            cout << "WRONG !!" << endl<< endl;
+            score=score;
+        }
+        cout << "Q5. Which one of the following is not an element of Noble gases?? \n" << "1. Helium.\n" << "2. Hydrogen. \n" << "3. Neon.\n" << "4. Xenon."<< endl;
+        cout << "Your answer ==> "; cin >> option;
+        if (option==2)
+        {
+            cout << "CORRECT !" << endl<< endl;
+            score=score+1;
+        }
+        else if (option>4)
+        {
+            cout << "Option is not valid" << endl<< endl;
+        }
+        else
+        {
+            cout << "WRONG !!" << endl<< endl;
+            score=score;
+        }
+    cout << "==============================" << endl;
+    cout << "Your overall score==>  " << score << "/10" << endl;
+    cout << "==============================" << endl;         
     }
     else {
         cout << "Try again";
